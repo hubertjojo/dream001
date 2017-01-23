@@ -13,7 +13,7 @@
   	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     <!-- Maven 3.x -->
-    <sourceEncoding>UTF-8</sourceEncoding>
+    <sourceEncoding>UTF-8</sourceEncoding> 
   </properties>
   <dependencies>
   	<dependency>
