@@ -4,4 +4,33 @@
   <artifactId>Exam002</artifactId>
   <version>001</version>
   <packaging>war</packaging>
+  <properties>
+  	<lib.spring.ver>4.3.5.RELEASE</lib.spring.ver>
+  	<!-- Maven 2.x -->
+  	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+    <!-- Maven 3.x -->
+    <sourceEncoding>UTF-8</sourceEncoding>
+  </properties>
+  <dependencies>
+  	<dependency>
+  		<groupId>org.springframework</groupId>
+  		<artifactId>spring-context</artifactId>
+  		<version>${lib.spring.ver}</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>org.springframework</groupId>
+  		<artifactId>spring-jdbc</artifactId>
+  		<version>${lib.spring.ver}</version>
+  		<!-- <classifier>sources</classifier> -->
+  	</dependency>
+  	
+  	<dependency>
+  		<groupId>org.springframework</groupId>
+  		<artifactId>spring-test</artifactId>
+  		<version>${lib.spring.ver}</version>
+  		<scope>test</scope>
+  		<classifier>sources</classifier>
+  	</dependency>
+  </dependencies>
 </project>
